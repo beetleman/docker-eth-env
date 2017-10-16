@@ -1,9 +1,10 @@
-FROM parity/parity:v1.8.0
+FROM parity/parity:v1.7.7
 
 MAINTAINER Mateusz Probachta <mateusz.probachta@gmail.com>
 
 EXPOSE 8545
 EXPOSE 8546
+EXPOSE 8180
 EXPOSE 30303
 
 COPY . /eth-env

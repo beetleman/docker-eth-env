@@ -2,6 +2,10 @@
 chain = "dev"
 unlock = ["0x00a329c0648769a73afac7f9381e08fb43dbea72"]
 
+[mining]
+author = "0x00a329c0648769a73afac7f9381e08fb43dbea72"
+#engine_signer = "0x00a329c0648769a73afac7f9381e08fb43dbea72"
+
 [network]
 port = 30303
 nat = "any"
@@ -22,10 +26,13 @@ origins = ["all"]
 apis = ["web3", "eth", "net", "parity", "traces", "rpc", "secretstore"]
 hosts = ["all"]
 
-[dapps]
-disable = true
-
 [ipc]
 disable = false
 path = "/ipc/jsonrpc.ipc"
 apis = ["web3", "eth", "net", "parity", "parity_accounts", "personal", "traces", "rpc", "secretstore"]
+
+[ui]
+force = true
+disable = false
+port = 8180
+interface = "0.0.0.0"
