@@ -1,10 +1,12 @@
 [parity]
 chain = "dev"
+
+[account]
 unlock = ["0x00a329c0648769a73afac7f9381e08fb43dbea72"]
 
 [mining]
 author = "0x00a329c0648769a73afac7f9381e08fb43dbea72"
-#engine_signer = "0x00a329c0648769a73afac7f9381e08fb43dbea72"
+engine_signer = "0x00a329c0648769a73afac7f9381e08fb43dbea72"
 
 [network]
 port = 30303
