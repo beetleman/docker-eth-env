@@ -1,10 +1,11 @@
 #!/bin/bash
+KEY_PATH=/root/.local/share/io.parity.ethereum/keys/DevelopmentChain
 
 echo "address: 0x00a329c0648769a73afac7f9381e08fb43dbea72"
 
-mkdir -p /root/.local/share/io.parity.ethereum/keys/DevelopmentChain/
-cp ./keys.json /root/.local/share/io.parity.ethereum/keys/development-account
+mkdir -p $KEY_PATH
+cp ./accounts/* $KEY_PATH/
 
-echo "" >  /password.file
+echo "" > /password.file
 
 /parity/parity --config config.toml --ui-no-validation --password "/password.file"

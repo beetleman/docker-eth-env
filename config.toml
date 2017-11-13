@@ -2,7 +2,14 @@
 chain = "dev"
 
 [account]
-unlock = ["0x00a329c0648769a73afac7f9381e08fb43dbea72"]
+unlock = [
+  "0x00a329c0648769a73afac7f9381e08fb43dbea72",
+  "0x00e3214900e50ba8d9dfdaa86af4c2bd8a0b155d",
+  "0x0068a1eb35c2d9c01f8cffec45cee6e78a89d49f",
+  "0x00Cd473a7ca648C757685Cb25BC718b18ef4aF90",
+  "0x00b12e4E8B9Ae852eC41b3147c4811bF1D706784",
+  "0x004b8B31CB82d9010B3a10E6522E5C40f1f92Ac6"
+]
 
 [mining]
 author = "0x00a329c0648769a73afac7f9381e08fb43dbea72"

@@ -1,0 +1,22 @@
+{
+    "address": "00cd473a7ca648c757685cb25bc718b18ef4af90",
+    "crypto": {
+        "cipher": "aes-128-ctr",
+        "cipherparams": {
+            "iv": "ba73630885c997ef69645573acf1e014"
+        },
+        "ciphertext": "d1309c85c2753811f78e4442b808a57b7dd6b509e12e450f70c57a0621c9aff6",
+        "kdf": "pbkdf2",
+        "kdfparams": {
+            "c": 10240,
+            "dklen": 32,
+            "prf": "hmac-sha256",
+            "salt": "801745fa23422aad393927b568dbc8fb8d150197ebfb87062944a6616b580265"
+        },
+        "mac": "ca5d039946e506743e7e6a87087e121997907ba7dce2ac6b63c0c60c8d12ec79"
+    },
+    "id": "0edfc3ed-db17-756f-9b4b-1fefc9b9318d",
+    "meta": "{\"description\":\"\",\"passwordHint\":\"empty string\",\"timestamp\":1510588783567}",
+    "name": "Account 3",
+    "version": 3
+}
