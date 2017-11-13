@@ -1,0 +1,22 @@
+{
+    "address": "002711c340b035200851e4948a436ad903757aee",
+    "crypto": {
+        "cipher": "aes-128-ctr",
+        "cipherparams": {
+            "iv": "59cdabb4ce5a38397aff053ca5aa2be1"
+        },
+        "ciphertext": "179b2a937dc157be2fcfd5988030d7029cbbf182a59af0a321d28d106dd001ed",
+        "kdf": "pbkdf2",
+        "kdfparams": {
+            "c": 10240,
+            "dklen": 32,
+            "prf": "hmac-sha256",
+            "salt": "b4b40ad0f63f616ba97205eed5d421a0b0149edb2eb7c3197e2abafd66fe8990"
+        },
+        "mac": "b646b7845ea3b127f3c83f4658b4f42be4d34f1c5c3b0a0b019ac8092a95de84"
+    },
+    "id": "26809287-e904-e370-4d72-849963202e9f",
+    "meta": "{\"description\":\"\",\"passwordHint\":\"empty string\",\"timestamp\":1510606546488}",
+    "name": "Account 8",
+    "version": 3
+}

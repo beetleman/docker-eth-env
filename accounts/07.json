@@ -1,0 +1,22 @@
+{
+    "address": "00dc2022d1cd0ff69912070a29bd94a1d0daf207",
+    "crypto": {
+        "cipher": "aes-128-ctr",
+        "cipherparams": {
+            "iv": "6fa837dad2ce9b0ecc8dd28942010c4f"
+        },
+        "ciphertext": "6c349b10665e4756999c2239b51b30ae6e7896930b25efa46ed6eb2f7e724570",
+        "kdf": "pbkdf2",
+        "kdfparams": {
+            "c": 10240,
+            "dklen": 32,
+            "prf": "hmac-sha256",
+            "salt": "2f23d5a029d30bf9333ae779f5dfb316735c8b8ee9cb6fe8e843b181024a7347"
+        },
+        "mac": "d2f01f232264a565be521737acc40fdeeba6a22cecbac324c86be5cdf93ac9b1"
+    },
+    "id": "e2206092-a85d-7196-55ee-d8283440bdb5",
+    "meta": "{\"description\":\"\",\"passwordHint\":\"empty string\",\"timestamp\":1510606477354}",
+    "name": "Account 7",
+    "version": 3
+}

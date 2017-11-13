@@ -1,0 +1,22 @@
+{
+    "address": "00fe30008054dfd103a3eaf8640f68f91d7b2682",
+    "crypto": {
+        "cipher": "aes-128-ctr",
+        "cipherparams": {
+            "iv": "660e5ea7fabfed0ab80a07f4f00d93a5"
+        },
+        "ciphertext": "cb0e803ab0b6d848f4aaf7e0c1cde08c535eb5fe44f03e72a155c36edac3e43a",
+        "kdf": "pbkdf2",
+        "kdfparams": {
+            "c": 10240,
+            "dklen": 32,
+            "prf": "hmac-sha256",
+            "salt": "da985da18d7611f9a927aafae1e14e3abca85ac02ef966182623caeef2032b4f"
+        },
+        "mac": "81024fd862aedf698af22cc1c419516284ca1598c3e6ef7dbb48edc38bf849f8"
+    },
+    "id": "68f65bcb-d16e-d245-911c-10576b6a6ef6",
+    "meta": "{\"description\":\"\",\"passwordHint\":\"empty string\",\"timestamp\":1510606596227}",
+    "name": "Account 9",
+    "version": 3
+}

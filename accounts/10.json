@@ -1,0 +1,22 @@
+{
+    "address": "0073cf615ec09d897664895c36008c841d3a5354",
+    "crypto": {
+        "cipher": "aes-128-ctr",
+        "cipherparams": {
+            "iv": "fb9d41f5f8e8c32d4645ffad653e228d"
+        },
+        "ciphertext": "ca0dd4fb5e8b34f889d5568a3570d901538a5898d78c82a2ef5236212d0099a8",
+        "kdf": "pbkdf2",
+        "kdfparams": {
+            "c": 10240,
+            "dklen": 32,
+            "prf": "hmac-sha256",
+            "salt": "65a710ceef9b550f6b45e0a6c963e19460cfd97fa68777bab7f4450b504fccbf"
+        },
+        "mac": "10cb71b34fab93e4a19d0d8c672d55bef3b0ede937518a31ecb3b6d7d65ecaa9"
+    },
+    "id": "627474a7-0b6d-7740-2975-43e6929ec4ae",
+    "meta": "{\"description\":\"\",\"passwordHint\":\"empty string\",\"timestamp\":1510606634974}",
+    "name": "Account 10",
+    "version": 3
+}
