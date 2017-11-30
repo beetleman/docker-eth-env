@@ -9,9 +9,26 @@ A **real environment** for development on Ethereum
 
 ## Usage:
 
+### docker
+
 ```bash
 docker build -t eth-env .
 docker run -it -p 8545:8545 -p 8546:8546 -p 30303:30303 eth-env
+```
+
+### docker-compose
+
+```
+version: "2"
+
+services:
+  testrpc:
+    image: beetleman/docker-eth-env:latest
+    ports:
+      - "8545:8545"
+      - "8546:8546"
+      - "8180:8180"
+      - "30303:30303"
 ```
 
 Wait, then RPC should be on `http://localhost:8545`

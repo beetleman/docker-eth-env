@@ -8,4 +8,7 @@ cp ./accounts/* $KEY_PATH/
 
 echo "" > /password.file
 
-/parity/parity --config config.toml --ui-no-validation --password "/password.file"
+/parity/parity --config config.toml \
+               --unsafe-expose \
+               --ui-no-validation \
+               --password "/password.file" ui
