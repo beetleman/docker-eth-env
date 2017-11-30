@@ -52,6 +52,6 @@ Broke accounts:
 
 ## IPC
 
-If you wand use ipc file is located on `/ipc/jsonrpc.ipc` so you can mount it if you wish.
+If you want use ipc file is located on `/ipc/jsonrpc.ipc` so you can mount it if you wish.
 
 [testrpc]: https://github.com/ethereumjs/testrpc
