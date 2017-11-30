@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+  testrpc:
+    build:
+      context: .
+    ports:
+      - "8545:8545"
+      - "8546:8546"
+      - "8180:8180"
+      - "30303:30303"
