@@ -11,4 +11,5 @@ echo "" > /password.file
 /parity/parity --config config.toml \
                --unsafe-expose \
                --ui-no-validation \
+               --no-signer
                --password "/password.file" ui
