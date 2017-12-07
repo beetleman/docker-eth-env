@@ -19,8 +19,10 @@ unlock = [
 [mining]
 author = "0x00a329c0648769a73afac7f9381e08fb43dbea72"
 engine_signer = "0x00a329c0648769a73afac7f9381e08fb43dbea72"
-force_sealing = true
+reseal_min_period = 0
+reseal_max_period = 6
 tx_queue_ban_time = 1 #s
+
 
 [ipc]
 disable = false
