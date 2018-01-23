@@ -19,7 +19,12 @@ unlock = [
 [mining]
 author = "0x00a329c0648769a73afac7f9381e08fb43dbea72"
 engine_signer = "0x00a329c0648769a73afac7f9381e08fb43dbea72"
-reseal_min_period = 0
+reseal_min_period = 1
+force_sealing = true
+gas_floor_target = "7999999"
+gas_cap = "6999999"
+tx_gas_limit = "6999999"
+
 
 [ipc]
 disable = false
