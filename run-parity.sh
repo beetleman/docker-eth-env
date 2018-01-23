@@ -8,7 +8,9 @@ cp ./accounts/* $KEY_PATH/
 
 echo "" > /password.file
 
-/parity/parity --config config.toml \
+/parity/parity -l engine=trace,tx=trace,txqueue=trace,own_tx=trace,miner=trace \
+               --config config.toml \
                --unsafe-expose \
                --ui-no-validation \
-               --password "/password.file" ui
+               --password "/password.file" \
+               ui
