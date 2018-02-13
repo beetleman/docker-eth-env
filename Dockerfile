@@ -1,4 +1,4 @@
-FROM parity/parity:v1.8.7
+FROM parity/parity:v1.8.9
 
 MAINTAINER Mateusz Probachta <mateusz.probachta@gmail.com>
 
